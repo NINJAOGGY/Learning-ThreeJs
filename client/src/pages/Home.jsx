@@ -3,7 +3,7 @@ import React from 'react'
 import { useSnapshot } from 'valtio'
 import { headContainerAnimation, headContentAnimation, headTextAnimation, slideAnimation } from '../config/motion.js'
 import state from '../store/index.js'
-import {CustomButton} from '../components'
+import {CustomButton} from '../components/index.js'
 
 const Home = () => {
 
